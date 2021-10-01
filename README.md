@@ -64,7 +64,7 @@ to{<br>
 }
 ## exemplos
 
-p {
+p {<br>
   animation-duration: 3s;<br>
   animation-name: slidein;<br>
 }<br>
