@@ -55,3 +55,80 @@
 * * a segunda medida se refere ao canto superior direito
 * * a terceira medida se refere ao canto inferior direito
 * * a quarta medida se refere ao canto inferior esquerdo
+# keyframes
+@keyfrmes nomedaanimação{<br>
+from{<br>
+  }<br>
+to{<br>
+  }<br>
+}
+## exemplos
+
+p {
+  animation-duration: 3s;<br>
+  animation-name: slidein;<br>
+}<br>
+
+@keyframes slidein {<br>
+  from {<br>
+    margin-left: 100%;<br>
+    width: 300%;<br>
+  }<br>
+
+  to {<br>
+    margin-left: 0%;<br>
+    width: 100%;<br>
+  }<br>
+}
+<br>
+.slidein {<br>
+  -moz-animation-duration: 3s;<br>
+  -webkit-animation-duration: 3s;<br>
+  animation-duration: 3s;<br>
+  -moz-animation-name: slidein;<br>
+  -webkit-animation-name: slidein;<br>
+  animation-name: slidein;<br>
+  -moz-animation-iteration-count: 3;<br>
+  -webkit-animation-iteration-count: 3;<br>
+  animation-iteration-count: 3;<br>
+  -moz-animation-direction: alternate;<br>
+  -webkit-animation-direction: alternate;<br>
+  animation-direction: alternate;<br>
+}<br>
+
+@-moz-keyframes slidein {<br>
+  from {<br>
+    margin-left:100%;<br>
+    width:300%;<br>
+  }<br>
+
+  to {<br>
+    margin-left:0%;<br>
+    width:100%;<br>
+  }<br>
+}<br>
+
+@-webkit-keyframes slidein {<br>
+  from {<br>
+    margin-left:100%;<br>
+    width:300%;<br>
+  }<br>
+  <br>
+
+  to {<br>
+   margin-left:0%;<br>
+   width:100%;<br>
+ }<br>
+}<br>
+
+@keyframes slidein {<br>
+  from {<br>
+    margin-left:100%;<br>
+    width:300%<br>
+  }<br>
+
+  to {<br>
+   margin-left:0%;<br>
+   width:100%;<br>
+ }<br>
+}
