@@ -1,21 +1,21 @@
 # alguns comando de htlm e css para me lembrar depois
 ## formulario
 ## no html
-### para escrever dentro de um input usamos:<br>
+ para escrever dentro de um input usamos:  
 ```` html
 <input type="text" placeholder="escreve dentro do input" > 
 ```` 
-### para escrever em um formulario usamos:<br>
+ para escrever em um formulario usamos:  
 ```` html
 <label for="o id do input" > 
 ````
-### para desabilitar um input usamos: <br> 
+ para desabilitar um input usamos:   
 ````html
 <input disabled="" >
 ````
 ___
 ## no css
-### para selecionar os inputs pelo tipo dele no css usamos:<br>
+ para selecionar os inputs pelo tipo dele no css usamos:   
 ```` css
 input [type="text"] {
 
@@ -23,14 +23,14 @@ input [type="text"] {
 }
 ```` 
 
-### para estilizar essa placeholder use: <br>
+ para estilizar essa placeholder use:    
 ```` css
 ::-webkit-input-placeholder { 
 
 
 }
 ```` 
-### para tirar a borda de um input ao clicar nele usamos:<br>
+  para tirar a borda de um input ao clicar nele usamos:   
 ```` css
 input{
 outline : none;
@@ -42,14 +42,14 @@ ___
 # css
 # before e after
 
-### usamos para estilizar antes do elemento:
+  usamos para estilizar antes do elemento:
 ````css
 ::before{
   content:"";
 }
 ````
 ___
-### para estilizar depois do elmento:
+  para estilizar depois do elmento:
 ````css
 ::after{
   content:"";
@@ -57,17 +57,12 @@ ___
 ````
 ___
 ___
-### para separar os ites de um elemento usamos:<br>
+  para separar os ites de um elemento usamos:   
 ```` css
 justify-content: space-betwen;
 ```` 
 ___
-### para mudar uma borda usamos :<br> 
-```` css
-border: 3px solid black;
-```` 
-___
-### para declarar variaveis no css usamos: <br>
+  para declarar variaveis no css usamos:    
 ```` css
 :root {
   --nomeDaVariavel: oque ela recebe;
@@ -75,74 +70,79 @@ ___
 }
 ```` 
 ___
-#### para usarmos essas variaveis usamos:<br>
+ # para usarmos essas variaveis usamos:   
 ```` css
 var(--nomeDaVariavel)
 ```` 
 ___
-### para rodar algun elemento use:<br>
+  para rodar algun elemento use:   
 ```` css
 trasition: rotate 180deg;
 ````
 ___
-### para definir um tempo para essa rotação usamos:<br>
+  para definir um tempo para essa rotação usamos:   
 ```` css
 transition: 3s;
 ```` 
 ___
-### para tirar o sublinhado de algum link usamos:<br>
+  para tirar o sublinhado de algum link usamos:   
 ````css
 text-decoration:none;
 ````
 ___
-### para colocar algun texto em sublinhado pode usar:
+  para colocar algun texto em sublinhado pode usar:
 ````css
 text-decoration:underline;
 ````
 
-### ou 
+  ou 
 ````css
 border-botton:solid red 3px;
 ````
 ___
 # bordas
-### para colocar uma borda emcima:
+  para mudar uma borda usamos :    
+```` css
+border: 3px solid black;
+```` 
+___
+  para colocar uma borda emcima:
 ````css
 border-top:3px solid red;
 ````
 ___
-### para colocar uma borda na esquerda:
+  para colocar uma borda na esquerda:
 ````css
 border-left:3px solid red;
 ````
 ___
-### para colocar uma borda na direita:
+  para colocar uma borda na direita:
 ````css
 border-rigt:3px solid red;
 ````
 ___
-### para colocar uma borda embaixo:
+  para colocar uma borda embaixo:
 ````css
 border-botton:3px solid red;
 ````
 ___
 ## border radius
-### para colocar um elemento com todas as bordas aredondadas use:
+  para colocar um elemento com todas as bordas aredondadas use:
 ````css
 border-radius: 15px;
 ````
 ___
-### para colocar apenas uma borda arredondada use:
+  para colocar apenas uma borda arredondada use:
 ````css
  border-radius: 0 0 0 0;
  ````
-* a primeira medida se refere ao canto superior esquerdo 
-* a segunda medida se refere ao canto superior direito
-* a terceira medida se refere ao canto inferior direito
-* a quarta medida se refere ao canto inferior esquerdo
+1. a primeira medida se refere ao canto superior esquerdo 
+1. a segunda medida se refere ao canto superior direito
+1. a terceira medida se refere ao canto inferior direito
+1. a quarta medida se refere ao canto inferior esquerdo
 ___
 # bara de rolagem
-### para estilizar toda a barra de rolagem usamos:
+  para estilizar toda a barra de rolagem usamos:
 ````css
 ::-webkit-scroll-bar-track{
 
@@ -150,7 +150,7 @@ ___
 }
 ````
 ___
-### para estilizar onde o scroll usamos:
+  para estilizar onde o scroll usamos:
 ````css
 ::-webkit--scollbar-thumb{
 
