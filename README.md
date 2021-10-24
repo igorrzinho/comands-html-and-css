@@ -141,6 +141,14 @@ ___
 1. a terceira medida se refere ao canto inferior direito
 1. a quarta medida se refere ao canto inferior esquerdo
 ___
+# alinhamento
+ para alinhas uma imagem no centro de uma div usamos:
+ ```` css
+ .img {
+  margin: auto 50%;
+  transform: translateX(-50%);
+}
+ ````
 # bara de rolagem
   para estilizar toda a barra de rolagem usamos:
 ````css
@@ -186,57 +194,5 @@ p {
     margin-left: 0%;
     width: 100%;
   }
-}
-
-.slidein {
-  -moz-animation-duration: 3s;
-  -webkit-animation-duration: 3s;
-  animation-duration: 3s;
-  -moz-animation-name: slidein;
-  -webkit-animation-name: slidein;
-  animation-name: slidein;
-  -moz-animation-iteration-count: 3;
-  -webkit-animation-iteration-count: 3;
-  animation-iteration-count: 3;
-  -moz-animation-direction: alternate;
-  -webkit-animation-direction: alternate;
-  animation-direction: alternate;
-}
-
-@-moz-keyframes slidein {
-  from {
-    margin-left:100%;
-    width:300%;
-  }
-
-  to {
-    margin-left:0%;
-    width:100%;
-  }
-}
-
-@-webkit-keyframes slidein {
-  from {
-    margin-left:100%;
-    width:300%;
-  }
-  
-
-  to {
-   margin-left:0%;
-   width:100%;
- }
-}
-
-@keyframes slidein {
-  from {
-    margin-left:100%;
-    width:300%
-  }
-
-  to {
-   margin-left:0%;
-   width:100%;
- }
 }
 ````
