@@ -1,7 +1,8 @@
 # alguns comando de htlm e css para me lembrar depois
-## formulario [clique aqui](https://github.com/igorrzinho/comands-html-and-css/blob/main/form.md)
-## no html
-
+## FORMULARIO [clique aqui](https://github.com/igorrzinho/comands-html-and-css/blob/main/form.md)
+## BORDAS [clique aqui]()
+## KEY FRAMES[clique aqui]()
+## ALINHAMENTO [clique aqui]()
 ___
 # html
 ___
