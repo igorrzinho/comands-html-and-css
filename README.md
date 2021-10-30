@@ -1,41 +1,7 @@
 # alguns comando de htlm e css para me lembrar depois
-## formulario
+## formulario [clique aqui](https://github.com/igorrzinho/comands-html-and-css/blob/main/form.md)
 ## no html
- para escrever dentro de um input usamos:  
-```` html
-<input type="text" placeholder="escreve dentro do input" > 
-```` 
- para escrever em um formulario usamos:  
-```` html
-<label for="o id do input" > 
-````
- para desabilitar um input usamos:   
-````html
-<input disabled="" >
-````
-___
-## no css
- para selecionar os inputs pelo tipo dele no css usamos:   
-```` css
-input [type="text"] {
 
-
-}
-```` 
-
- para estilizar essa placeholder use:    
-```` css
-::-webkit-input-placeholder { 
-
-
-}
-```` 
-  para tirar a borda de um input ao clicar nele usamos:   
-```` css
-input{
-outline : none;
-}
-```` 
 ___
 # html
 ___
